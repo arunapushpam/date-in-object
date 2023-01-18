@@ -7,9 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-		
+		<p id ="t"></p>
 	<script>
-		<!-- //date -->
+		//date
 		const date=Date()
 		console.log(date);
 		const now =new Date();
@@ -23,8 +23,110 @@
 			console.log(anotherDate.getFullYear());
 			
 	//year
-  	toLocaleDateString("en-IN").split("/")
-	console.log(month,date,year);
+  	<!-- toLocaleDateString("en-IN").split("/") -->
+	<!-- console.log(month,date,year); -->
+	
+	
+	//var date minth year
+	
+	<!-- var date=new Date(); -->
+	<!-- console.log("Date Value"+ date); -->
+	
+	<!-- function timer(){ -->
+		<!-- var date=new Date(); -->
+		<!-- var time=date.toLocalTimeString(); -->
+		<!-- document.getElementById("t").innerHTML=time; -->
+	<!-- } -->
+	<!-- setInterval(timer,1000); -->
+	
+	
+	//date string
+	var x=new Date("13 may 2000");
+	console.log(x);
+	
+	var y=new Date( 2000-04);
+	console.log(y);
+	
+	
+	//newdate
+			const num=new Date()
+			console.log(num)
+			
+			//getyear
+			const full= new Date("july 25 2002");
+			var year1=full.getYear()
+			console.log(year1)
+			
+			//getFullYear
+			const fullyear= new Date 
+			var fullye=fullyear.getYear()
+			console.log(fullye)
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			//get date
+			
+			const birthday = new Date("may 13,2000");
+			const date1 = birthday.getDate();
+
+			console.log(date1);
+			
+			
+			
+			
+			
+		
+			//day
+			const birthday1 = new Date("may 13, 2000");
+			const day = birthday1.getDay();
+			console.log(day);
+			
+			//full year
+			
+			const year = new Date("may 13, 2000");
+			console.log(year.getFullYear());
+			
+			//hours
+			const hour = new Date("May 13, 2000,05:25");
+			console.log(hour.getHours());
+			
+			//minute
+			const minute = new Date("May 13, 03 07:45");
+			console.log(minute.getMinutes());
+		
+			//month
+			const month= new Date("may 13,2000");
+			console.log(month.getMonth());
+			
+			//second
+			const second = new Date("may 13, 2000,  00:20:25");
+			console.log(second.getSeconds(),"second");
+			
+			//time
+			<!-- const time = new Date("may 13, 69 20:17:40"); -->
+			<!-- console.log(time.getTime()); -->
+			
+			//setdate
+			const setdate = new Date("may 13, 2000 23:15:30");
+			setdate.setDate(11);
+			console.log(setdate.getDate());
+			
+			
+			//set full year
+			const setyear= new Date("may 13 ,  2000 23:15:30");
+			setyear.setFullYear(2005);
+			console.log(setyear.getFullYear());
+			
+			//
+			
+			
+	
 	</script>
 </body>
 <html>
